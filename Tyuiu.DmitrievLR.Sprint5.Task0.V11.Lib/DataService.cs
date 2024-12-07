@@ -17,7 +17,7 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task0.V11.Lib
             var result = Math.Pow(y, 3);
 
 
-            File.WriteAllText(filePath, y.ToString());
+            File.WriteAllText(filePath, y.ToString()); 
             File.WriteAllText(path, Convert.ToString(result));
             return filePath;
         }

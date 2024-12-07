@@ -40,5 +40,5 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task0.V11
             Console.WriteLine("Файл " + res + " создан.");
             Console.ReadKey();
         }
-    }
+    } 
 }
