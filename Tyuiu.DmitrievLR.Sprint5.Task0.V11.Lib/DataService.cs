@@ -10,7 +10,7 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task0.V11.Lib
         {
             string path = $@"{Directory.GetCurrentDirectory()}\OutputFileTask0.txt";
 
-            string filePath = Path.Combine(Path.GetTempPath(), "OutPutFileTask0.txt");
+            //string filePath = Path.Combine(Path.GetTempPath(), "OutPutFileTask0.txt");
 
             double y = (4 - Math.Pow(x, 3)) / Math.Pow(x, 2);
 
