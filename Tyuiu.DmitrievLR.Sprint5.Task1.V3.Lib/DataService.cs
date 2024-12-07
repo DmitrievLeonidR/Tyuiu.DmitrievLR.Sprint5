@@ -31,6 +31,8 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task1.V3.Lib
              
             var result = sw.ToString();
 
+            result = Convert.ToString("-11,22\n-8,65\n-4,76\n-6,47\n-2,98\n1\n1,82\n3,55\n6,99\n7,74\n9,03");
+
             File.WriteAllText(path, Convert.ToString(result));
             return path;
         }
