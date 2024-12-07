@@ -36,7 +36,7 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task0.V11
             DataService ds = new DataService();
             string res = ds.SaveToFileTextData(x);
 
-             
+              
             Console.WriteLine("Файл " + res + " создан.");
             Console.ReadKey();
         }
