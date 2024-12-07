@@ -11,8 +11,9 @@
             FileInfo fileInfo = new FileInfo(path);
             bool fileExist = fileInfo.Exists;
             bool wait = true;
-            
+
 
             Assert.AreEqual(wait, fileExist);
         }
-    } 
+    }
+}
