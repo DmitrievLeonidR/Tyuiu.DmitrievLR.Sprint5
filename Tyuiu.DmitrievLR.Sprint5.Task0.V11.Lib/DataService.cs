@@ -19,7 +19,7 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task0.V11.Lib
 
             //File.WriteAllText(filePath, y.ToString()); 
             File.WriteAllText(path, Convert.ToString(result));
-            return path;
+            return Convert.ToString(result);
         }
     }
 }
