@@ -15,5 +15,5 @@
 
             Assert.AreEqual(wait, fileExist);
         }  
-    }
+    } 
 }  
