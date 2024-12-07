@@ -8,7 +8,7 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task0.V11.Lib
     {
         public string SaveToFileTextData(int x)
         {
-            string path = $@"{Directory.GetCurrentDirectory()}\OutputFileTask0.txt";
+            string path = Path.Combine(Path.GetTempPath(), "OutPutFileTask0.txt");
 
             //string filePath = Path.Combine(Path.GetTempPath(), "OutPutFileTask0.txt");
 
@@ -19,7 +19,7 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task0.V11.Lib
 
             //File.WriteAllText(filePath, y.ToString()); 
             File.WriteAllText(path, Convert.ToString(result));
-            return Convert.ToString(result);
+            return path; 
         }
     }
 }
