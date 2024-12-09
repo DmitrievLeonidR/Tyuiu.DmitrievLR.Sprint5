@@ -37,7 +37,7 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task5.V18
 
             var result = ds.LoadFromDataFile(path);
             Console.WriteLine(result);
-            Console.ReadKey();
+            Console.ReadKey(); 
         }
     }
 }

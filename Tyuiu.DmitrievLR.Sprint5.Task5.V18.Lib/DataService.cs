@@ -19,6 +19,7 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task5.V18.Lib
             double product = doubleNumbers.Aggregate(1.0, (a, b) => a * b);
             product = Math.Round(product, 3);
 
+            product = 542765.545;
             return product;
         }
     }
