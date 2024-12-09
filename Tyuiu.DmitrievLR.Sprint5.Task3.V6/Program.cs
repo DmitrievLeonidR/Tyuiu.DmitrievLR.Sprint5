@@ -39,6 +39,6 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task3.V6
             var result = ds.SaveToFileTextData(x);
             Console.WriteLine("Файл " + result + " создан.");
             Console.ReadKey();
-        }
+        } 
     }
 }
