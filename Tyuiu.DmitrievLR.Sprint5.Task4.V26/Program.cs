@@ -36,7 +36,7 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task4.V26
             DataService ds = new DataService();
 
             var result = ds.LoadFromDataFile(path);
-            Console.WriteLine(result);
+            Console.WriteLine(result); 
             Console.ReadKey(); 
         }
     }

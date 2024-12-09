@@ -11,7 +11,7 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task4.V26.Lib
             string strX = File.ReadAllText(path);
             double d = Convert.ToDouble(strX);
             double result = Math.Pow(d, 3) + Math.Sin(d) * Math.Cos(d);
-            double res = Math.Round(result, 3);
+            double res = Math.Round(result, 3); 
 
             return res;
         }
