@@ -28,7 +28,7 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task2.V14.Lib
                 {
                     for (int j = 0; j < 3; j++)
                     {
-                        writer.Write(matrix[i, j] + "; ");
+                        writer.Write(matrix[i, j] + ";");
                     }
                     writer.WriteLine();
                 }
@@ -36,7 +36,7 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task2.V14.Lib
 
 
             //File.WriteAllText(path, Convert.ToString(result));
-            return path;
+            return path; 
         }
     }
 }

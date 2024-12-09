@@ -34,7 +34,7 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task2.V14
                     array[i, j] = int.Parse(Console.ReadLine());
                 }
             }
-
+             
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
