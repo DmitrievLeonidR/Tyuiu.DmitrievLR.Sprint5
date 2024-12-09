@@ -15,7 +15,7 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task4.V26.Lib
 
 
             //double d = Convert.ToDouble(strX);
-            double result = Math.Pow(x, 3) + Math.Sin(x) * Math.Cos(x);
+            double result = ( Math.Pow(x, 3) + Math.Sin(x) )  * Math.Cos(x);
             double res = Math.Round(result, 3); 
 
             return res; 

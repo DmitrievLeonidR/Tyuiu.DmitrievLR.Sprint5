@@ -32,7 +32,7 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task4.V26
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-
+             
             DataService ds = new DataService();
               
             var result = ds.LoadFromDataFile(path);
