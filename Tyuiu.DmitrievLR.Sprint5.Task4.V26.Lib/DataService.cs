@@ -14,6 +14,6 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task4.V26.Lib
             double res = Math.Round(result, 3); 
 
             return res; 
-        } 
+        }  
     } 
 }
