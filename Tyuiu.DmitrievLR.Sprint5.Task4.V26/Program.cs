@@ -24,7 +24,7 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task4.V26
             Console.WriteLine("***************************************************************************");
 
             string path = $@"{Directory.GetCurrentDirectory()}\InPutDataFileTask4V26.txt";
-
+             
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
