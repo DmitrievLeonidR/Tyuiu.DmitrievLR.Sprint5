@@ -13,7 +13,7 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task4.V26.Lib
             double result = Math.Pow(d, 3) + Math.Sin(d) * Math.Cos(d);
             double res = Math.Round(result, 3); 
 
-            return res;
+            return res; 
         }
     } 
 }
