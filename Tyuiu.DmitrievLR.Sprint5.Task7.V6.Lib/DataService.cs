@@ -12,7 +12,7 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task7.V6.Lib
 
 
             char replacementCharacter = '#';
-            bool i;
+            bool i; 
             try
             {
                 // Read the input file

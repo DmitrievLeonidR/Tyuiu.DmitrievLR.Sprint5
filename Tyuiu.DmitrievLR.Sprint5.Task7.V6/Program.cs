@@ -15,7 +15,7 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task7.V6
             Console.WriteLine("* Выполнил: Дмитриев Леонид Романович | ИИПБ-24-1                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *"); 
-            
+             
             Console.WriteLine("*                                                                         *");
 
             Console.WriteLine("*                                                                         *");
