@@ -30,7 +30,7 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task2.V14.Lib
                     {
                         writer.Write(matrix[i, j] + ";");
                     }
-                    writer.WriteLine();
+                    writer.WriteLine(" ");
                 }
             }
 

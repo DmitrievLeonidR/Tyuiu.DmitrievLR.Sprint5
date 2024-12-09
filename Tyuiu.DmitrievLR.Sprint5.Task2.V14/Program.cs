@@ -44,7 +44,7 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task2.V14
             Console.WriteLine("***************************************************************************");
 
             DataService ds = new DataService();
-
+             
             var result = ds.SaveToFileTextData(array);
             //Console.WriteLine(result);
             Console.WriteLine("Файл " + result + " создан.");
