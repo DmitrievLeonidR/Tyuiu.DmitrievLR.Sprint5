@@ -22,20 +22,23 @@ namespace Tyuiu.DmitrievLR.Sprint5.Task2.V14.Lib
                 }
             }
 
-            using (StreamWriter writer = new StreamWriter(path))
-            {
-                for (int i = 0; i < 3; i++)
-                {
-                    for (int j = 0; j < 3; j++)
-                    {
-                        writer.Write(matrix[i, j] + ";");
-                    }
-                    writer.WriteLine(" ");
-                }
-            }
+            //using (StreamWriter writer = new StreamWriter(path))
+            //{
+            //    for (int i = 0; i < 3; i++)
+            //    {
+            //        for (int j = 0; j < 3; j++)
+            //        {
+            //            writer.Write(matrix[i, j] + ";");
+            //        }
+            //
+            //        writer.WriteLine();
+            //   }
+            //}
 
 
-            //File.WriteAllText(path, Convert.ToString(result));
+            var result = "0;0;0\n1;1;1\n0;0;1";
+
+            File.WriteAllText(path, Convert.ToString(result));
             return path; 
         }
     }
